@@ -1,0 +1,24 @@
+To start the Server
+1. import the whole project SIS_Module into Netbean
+2. make sure all source codes are in the SIS_Module project
+3. right click SIS_Module.java-> Run File
+
+To start send request to the SIS_Module
+1. put the xml file that has to be read in localhost:8080/SIS_Module/recommenderModuleResult.xml
+2. check whether updateDB.java is in localhost:8080/SIS_Module/updateDB.java
+3. call localhost:8080/SIS_ModuleSIS_Module?userID=1 to read the xml file and process the xml file using the SIS_Module
+
+Location for changing DB Connection
+DBConnection.java: String URL="jdbc:mysql://localhost/SIS_Module_DB", USER="root", PASSWORD="881903";
+
+Location for updateDB.java
+SIS_Module.java: String URLforUpdateDB = "http://localhost:8080/SIS_Module/updateDB";
+
+To drop All database (given that there is the DB SIS_Module_DB)
+./dropAllTables.sh
+
+To create and insert data (given that there is the DB SIS_Module_DB)
+./createAndInsertTables.sh
+
+
+
