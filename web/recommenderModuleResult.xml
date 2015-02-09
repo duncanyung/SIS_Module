@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+ <response>
+	 <status>  
+		 <status_code> status_code </status_code>  
+		 <status_message> error_message </status_message>  
+	 </status>  
+
+	 <list_movie>  
+		 <movie>
+			 <id> 1 </id>  
+			 <name> name_movie1 </name>  
+			 <description> description_movie1 </description>  
+			 <url> url_cover1 </url>  
+			 <film_director id='id_film_director'> film_director1 </film_director>  
+			 <film_director_type id='id_fd_type'> fd_type1 </film_director_type>  
+			 <movie_type id='id_movie_type'> movie_type1 </movie_type>  
+			 <movie_genre1 id='id_genre1'> genre1_1 </movie_genre1>  
+			 <movie_genre2 id='id_genre2'> genre2_1 </movie_genre2>  
+			 <movie_genre3 id='id_genre3'> genre3_1 </movie_genre3>  
+			 <country_of_origin id='id_coo'> coo1 </country_of_origin>  
+			 <year_of_production id='id_yop'> yop1 </year_of_production>  
+			 <content_advice id='id_ca'> ca1 </content_advice>  
+		 </movie>  
+                 
+                 <movie>
+			 <id> 2 </id>  
+			 <name> name_movie2 </name>  
+			 <description> description_movie2 </description>  
+			 <url> url_cover2 </url>  
+			 <film_director id='id_film_director'> film_director2 </film_director>  
+			 <film_director_type id='id_fd_type'> fd_type2 </film_director_type>  
+			 <movie_type id='id_movie_type'> movie_type2 </movie_type>  
+			 <movie_genre1 id='id_genre1'> genre1_2 </movie_genre1>  
+			 <movie_genre2 id='id_genre2'> genre2_2 </movie_genre2>  
+			 <movie_genre3 id='id_genre3'> genre3_2 </movie_genre3>  
+			 <country_of_origin id='id_coo'> coo2 </country_of_origin>  
+			 <year_of_production id='id_yop'> yop2 </year_of_production>  
+			 <content_advice id='id_ca'> ca2 </content_advice>  
+		 </movie>  
+	 </list_movie>  
+ </response>
